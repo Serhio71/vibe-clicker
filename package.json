@@ -1,13 +1,19 @@
 {
   "name": "vibe-clicker",
   "version": "0.1.0",
+  "overrides": {
+    "@rainbow-me/rainbowkit": {
+      "wagmi": "^2.0.0"
+    }
+  },
+
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+},
   "dependencies": {
     "@rainbow-me/rainbowkit": "^2.2.10",
     "@tanstack/react-query": "^5.96.2",
